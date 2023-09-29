@@ -27,6 +27,12 @@ If the question does not have any question number, name it as:
 
 `<question_name>.<file_extension>`
 
+Save the file in the <b>platform specific</b> folder.
+
+For example: You are solving a coding challenge from LeetCode, save the file into the `LeetCode` folder.
+
+If the folder for your platform does not exists, create a new folder and rename it according to your platform and add your files.
+
 ### Step 3: Add Comments
 
 Inside your code file, add the URL of the question as a comment at the top. Additionally, provide a clear explanation of your approach using block comments.
