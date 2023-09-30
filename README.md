@@ -35,7 +35,7 @@ If the folder for your platform does not exists, create a new folder and rename 
 
 ### Step 3: Add Comments
 
-Inside your code file, add the URL of the question as a comment at the top. Additionally, provide a clear explanation of your approach using block comments.
+Inside your code file, add the URL of the question as a comment at the top. Additionally, provide a clear explanation of your approach using block comments. Don't forget to mention the time and space complexity.
 
 ```cpp
 /*
@@ -44,6 +44,8 @@ Approach:
 1. Start by...
 2. Then, we...
 3. Finally, ...
+Time Complexity: O(1)
+Space Complexity: O(1)
 */
 // Your code goes here
 ```
@@ -70,6 +72,44 @@ For example:
 
 Sit back, relax, and wait for your PR to be reviewed and merged. Congratulations, you've contributed to AlgoVerse's Hacktoberfest celebration!
 
+## How to Contribute Optimized Code
+### Follow these steps to contribute to any existing solution by optimizing them:
+
+* <b>Identify Opportunities</b>: Review the existing code to identify opportunities for optimization. This can include improving time complexity, reducing memory usage, or enhancing code readability.
+
+* <b>Comment out existing code</b>: Comment out the existing code that you plan to optimize and place it at the bottom of the code file. This preserves the original implementation for reference.
+
+* <b>Add new logic</b>: At the top of the code file, write your new, optimized code. Ensure that your code is well-documented and follows our coding standards and guidelines mentioned above.
+
+After completing, your file structure must look like this.
+
+```cpp
+/*
+Question URL: https://leetcode.com/problems/hello-world/
+
+New Approach:
+1. Start by...
+2. Then, we...
+3. Finally, ...
+Time Complexity: O(1)
+Space Complexity: O(1)
+*/
+// Your optimized code goes here
+
+/*
+Old Approach:
+1. Start by...
+2. Then, we...
+3. Finally, ...
+Time Complexity: O(1)
+Space Complexity: O(1)
+
+// Existing code goes here (Within block comments)
+*/
+```
+
+* <b>Commit and submit a pull request</b>: Commit your code with a meaningful message and submit a pull request (PR) with your optimized code. Follow the PR guidelines mentioned above. Now sit back and relax and wait for your PR to be reviewed and merged.
+
 ## Join Our Community
 
 Connect with fellow coders, discuss challenges, and share your insights. Join our [AlgoVerse Discussion Forum](https://github.com/vishal-kumar-paswan/AlgoVerse/discussions)!
@@ -92,7 +132,7 @@ To foster a positive and collaborative environment within our community, we ask 
 
 - <b>Report Issues</b>: If you encounter issues or problems with the repository, report them using the issue tracker. Be as specific as possible to help us understand and address the issue.
 
-- Collaborate: Collaboration is encouraged! Feel free to engage in discussions, provide feedback, and submit pull requests to improve the repository.
+- <b>Collaborate</b>: Collaboration is encouraged! Feel free to engage in discussions, provide feedback, and submit pull requests to improve the repository.
 
 By using or contributing to this repository, you agree to adhere to these guidelines provided above. Failure to comply with these guidelines may result in your contributions being removed and access to the community being restricted.
 
