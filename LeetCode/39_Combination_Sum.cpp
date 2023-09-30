@@ -17,11 +17,13 @@ remove the last added element from the ds vector as we are looking for other pos
 Once the index reaches the last element of the array and the target is attained we will push the ds vector in the ans vector. 
 If the target is less then the index element then we will make the function call and skip that element and move to the next element keeping the target unchanged. 
 
-
+Time Complexity: O(2^t * k) where t is the target, k is the average length
+Space Complexity: O(k*x), k is the average length and x is the no. of combinations
 
 */
 
-void solve(int i, int target, vector<int>& arr, vector<int>& ans, vector<int>& ds) {
+class Solution {
+void solve(int i, int target, vector<int>& arr, vector<vector<int>>& ans, vector<int>& ds) {
     int num = arr.size();
     if (i == num) {
         if (target == 0) {
@@ -33,10 +35,20 @@ void solve(int i, int target, vector<int>& arr, vector<int>& ans, vector<int>& d
     // Include the current element arr[i] in the combination
     if (arr[i] <= target) {
         ds.push_back(arr[i]);
-        solve(i + 1, target - arr[i], arr, ans, ds);
+        solve(i, target - arr[i], arr, ans, ds);
         ds.pop_back(); // Backtrack by removing the last element
     }
     
     // Exclude the current element arr[i] from the combination
     solve(i + 1, target, arr, ans, ds);
 }
+
+
+public:
+    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+        vector<vector<int>> ans;
+        vector<int>ds;
+        solve(0, target, candidates, ans, ds);
+        return ans;
+    }
+};
