@@ -1,3 +1,6 @@
+// Question Link: https://leetcode.com/problems/brick-wall/
+// Intuition: We are trying to find the minimum number of bricks that need to be crossed to go from one end of the wall to the other. To do this, we iterate through each row of the wall, keeping track of the cumulative distance of cracks from the left end of the wall. We use a hashmap to store the count of cracks at each distance. By finding the distance with the maximum number of cracks, we can determine the minimum number of bricks that need to be crossed, which is equal to the total number of rows minus the maximum count of cracks at any distance.
+
 class Solution {
 public:
     int leastBricks(vector<vector<int>>& wall) {
@@ -35,4 +38,3 @@ public:
 
 // Time Complexity: O(total bricks in the wall)
 // Space Complexity: O(maximum number of bricks in a row)
-
