@@ -1,6 +1,9 @@
 // Day 145
 // https://codeforces.com/problemset/problem/550/A
 // 550 A. Two Substrings
+// Approach : We would check if the word contains AB or BA, and yet again if BA or AB is found respectively, then we would return YES else NO.
+// Time Complexity : O(n)
+// Space Complexity : O(1)
 
 import java.util.*;
 
