@@ -1,4 +1,4 @@
-# AlgoVerse - Hacktoberfest Edition
+# AlgoVerse - Your Algorithms Hub
 
 Welcome to AlgoVerse! 🚀
 
