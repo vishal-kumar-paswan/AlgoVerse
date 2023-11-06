@@ -40,3 +40,8 @@ To foster a positive and collaborative environment within our community, we ask 
 By using or contributing to this repository, you agree to adhere to these guidelines provided above. Failure to comply with these guidelines may result in your contributions being removed and access to the community being restricted.
 
 Thank you for being a part of our data structures and algorithms community! 💌
+
+## Kudos to all the contributors 🙌
+<a href="https://github.com/vishal-kumar-paswan/AlgoVerse/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=vishal-kumar-paswan/AlgoVerse" />
+</a>
